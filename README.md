@@ -1,6 +1,6 @@
 # Azure Cloud Data Engineering: API-Driven ETL/ELT Pipelines
 
-## 1. Project Overview
+## Project Overview
 
 This project uses two datasets [Business Data](https://data.sfgov.org/Economy-and-Community/Registered-Business-Locations-San-Francisco/g8m3-pdis/about_data) and [Incident Reports](https://data.sfgov.org/Public-Safety/Police-Department-Incident-Reports-2018-to-Present/wg3w-h783/about_data) from San Francisco government's public datasets website to provide following data-driven insights:
 1. Hotspot Analysis: Crime rate in the vicinity of business locations
@@ -10,11 +10,11 @@ This project uses two datasets [Business Data](https://data.sfgov.org/Economy-an
 
 **Note:** This project only prepares and processes data to serve downstream applications, Data Science teams, and Business Owners for further analysis.
 
-# Technical Architecture
+## Technical Architecture
 <img width="655" alt="architecture" src="https://github.com/user-attachments/assets/d12ba796-8855-4076-a80d-e2d655c0a717">
 
 
-# Key Technologies
+## Key Technologies
 
 Major tools/technologies used in this project:
 1. Python (For API calls, transformations)
@@ -25,7 +25,7 @@ Major tools/technologies used in this project:
 6. Pandas, Pyspark (For transformations)
 7. REST APIs (To fetch data)
 
-# Datasets
+## Datasets
 
 Datasets used: [Business Data](https://data.sfgov.org/Economy-and-Community/Registered-Business-Locations-San-Francisco/g8m3-pdis/about_data) and [Incident Reports](https://data.sfgov.org/Public-Safety/Police-Department-Incident-Reports-2018-to-Present/wg3w-h783/about_data)
 Business Data: This dataset includes the locations of businesses that pay taxes to the City and County of San Francisco. Each registered business may have multiple locations and each location is a single row.
