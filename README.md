@@ -37,12 +37,20 @@ If you would like more information, you can visit the website.
 
 Data Source Refresh Schedule:
 Business Data - 04:11 AM PST
+
 Incidents Data - 10:00 AM PST
+
 **Note:** As refresh schedules are in PST, in this project the data fetch job is scheduled at 11:00 PM IST to fetch both datasets together considering reasonable buffer time.
 
 Data Fetch Mechanism:
 API authentication is not required as data is fetched using SODA API 2.0 endpoints (No restrictions on throttling limits)
 However, if you need to implement authentication refer [developer's website](https://data.sfgov.org/profile/edit/developer_settings) to generate your API tokens and secrets.
+
+## Challenges and Solutions
+
+The major challenge here is to build a data model with a relation between these two datasets. As there is no direct key which relates both datasets it is difficult to join them directly.
+
+**Hint:** Leverage location coordinates from both datasets to derive a common field between them to create a relationship required for generating required insights.
 
 
 
