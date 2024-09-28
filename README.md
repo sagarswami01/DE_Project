@@ -33,9 +33,10 @@ Business Data: This dataset includes the locations of businesses that pay taxes 
 
 Incident Reports: This dataset includes incident reports that have been filed as of January 1, 2018. These reports are filed by officers or self-reported by members of the public using SFPD’s online reporting system.
 
-If you would like more information, you can visit the website.
+If you would like more information, you can visit the [website](https://datasf.org/opendata/).
 
 Data Source Refresh Schedule:
+
 Business Data - 04:11 AM PST
 
 Incidents Data - 10:00 AM PST
@@ -67,7 +68,7 @@ Currently, the workflow is orchestrated using databricks which can be extended t
 
 ## Contact Information
 
-In case of queries, you can reach out to me at [LINKEDIN](https://www.linkedin.com/in/sagar-swami-930121126/) or [Email](mailto:swami.vnit@gmail.com)
+In case of queries, you can reach out to me at [LinkedIn](https://www.linkedin.com/in/sagar-swami-930121126/) or [Email](mailto:swami.vnit@gmail.com)
 
 
 
