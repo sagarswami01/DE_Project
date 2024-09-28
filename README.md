@@ -1,4 +1,4 @@
-# Azure Cloud Data Engineering: API-Driven ETL/ELT Pipelines
+# Azure Cloud Data Engineering: API-Driven ELT Pipelines
 
 ## Project Overview
 
@@ -51,6 +51,23 @@ However, if you need to implement authentication refer [developer's website](htt
 The major challenge here is to build a data model with a relation between these two datasets. As there is no direct key which relates both datasets it is difficult to join them directly.
 
 **Hint:** Leverage location coordinates from both datasets to derive a common field between them to create a relationship required for generating required insights.
+
+## How to run the project
+
+To run the project files you should have an Azure/Databricks subscription.
+
+Steps:
+1. To fetch data use the PL_Source_Data_Load.json databricks job which triggers two tasks parallelly to fetch data and store JSON files in respective folders in blob storage further it reads the JSON files and stores them as a delta table in the bronze layer. This requires two notebooks/scripts NB_Source_Data_Load_Business_Data.py and NB_Source_Data_Load_Police_Dept.py inside the Notebooks folder.
+2. Use the PL_Data_Process.json pipeline to further consume the bronze data and store processed data ready to implement business rules. This pipeline requires the NB_Silver_Transformations.py script inside the Notebooks folder.
+3. Refer to job_cluster.json for cluster configurations and packages used for the project which is required to run above pipelines.
+
+## Future Improvements
+
+Currently, the workflow is orchestrated using databricks which can be extended to Azure Data Factory for complex frameworks. In addition to it, Azure SQL can be leveraged to store Pipeline Logs, Metadata, etc, and Logic Apps to send job alerts.
+
+## Contact Information
+
+In case of queries, you can reach out to me at [LINKEDIN](https://www.linkedin.com/in/sagar-swami-930121126/) or [Email](mailto:swami.vnit@gmail.com)
 
 
 
