@@ -19,11 +19,12 @@ This project uses two datasets [Business Data](https://data.sfgov.org/Economy-an
 Major tools/technologies used in this project:
 1. Python (For API calls, transformations)
 2. Azure Data Factory/Databricks (For orchestration)
-3. Azure Blob Storage/Data Lake (For data storage)
-4. Azure SQL (For metadata and logs)
-5. Databricks (For loading and processing data)
-6. Pandas, Pyspark (For transformations)
-7. REST APIs (To fetch data)
+3. Azure Key Vault (To store secrets and tokens)
+4. Azure Blob Storage/Data Lake (For data storage)
+5. Azure SQL (For metadata and logs)
+6. Databricks (For loading and processing data)
+7. Pandas, Pyspark (For transformations)
+8. REST APIs (To fetch data)
 
 ## Datasets
 
