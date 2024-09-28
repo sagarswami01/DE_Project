@@ -28,8 +28,11 @@ Major tools/technologies used in this project:
 ## Datasets
 
 Datasets used: [Business Data](https://data.sfgov.org/Economy-and-Community/Registered-Business-Locations-San-Francisco/g8m3-pdis/about_data) and [Incident Reports](https://data.sfgov.org/Public-Safety/Police-Department-Incident-Reports-2018-to-Present/wg3w-h783/about_data)
+
 Business Data: This dataset includes the locations of businesses that pay taxes to the City and County of San Francisco. Each registered business may have multiple locations and each location is a single row.
+
 Incident Reports: This dataset includes incident reports that have been filed as of January 1, 2018. These reports are filed by officers or self-reported by members of the public using SFPD’s online reporting system.
+
 If you would like more information, you can visit the website.
 
 Data Source Refresh Schedule:
